@@ -144,13 +144,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 rotationDgr = 0;
                 break;
             case Surface.ROTATION_90:
-                rotationDgr = 90;
+                rotationDgr = 0;
                 break;
             case Surface.ROTATION_180:
-                rotationDgr = 180;
+                rotationDgr = 0;
                 break;
             case Surface.ROTATION_270:
-                rotationDgr = 270;
+                rotationDgr = 0;
                 break;
             default:
                 return;
